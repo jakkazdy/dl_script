@@ -1,0 +1,1 @@
+<p>Hasło zostało zmienione.</p>

@@ -1,0 +1,382 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2014-12-26, 03:38:13
+    Author     : Jak
+*/
+html, body{
+    display:block;
+    margin:0;
+    padding:0;
+    //padding-top:50px;
+    border:0;
+    //background-image: url('img/bg.jpg');
+    background-color: #222;
+    background-size:100%;
+    background-repeat: repeat-y;
+    color:#fff;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 13px;
+    line-height: 1.3;
+}
+a:link, a:visited, a:hover{
+    color: #fff; text-decoration: none;
+}
+// podstawy
+p{
+    margin:0;
+    
+}
+
+#header{
+    background: #bd1414;
+    width: 100%;
+    height:70px;
+    display: block;
+    top: 0px;
+    position: fixed;
+    z-index: 10;
+
+}
+#header .h1{
+    display:inline-block;
+    position:absolute;
+    left:50%;
+    margin-left:-130px;
+    padding:0;
+    height:70px;
+    width:260px;
+}
+#header .logo{
+    background:url('img/logo.png');
+    width:50px;
+    margin-top:4px;
+    height:62px;
+    display:inline-block;
+}
+#header .logotyp{
+    background:url('img/logotyp.png');
+    width:200px;
+    margin-bottom:16px;
+    margin-left:10px;
+    height:27px;
+    display:inline-block;
+}
+#menu {
+    height: 45px;
+    background: rgba(0, 0, 0, 0.75);
+    width: 100%;
+    top: 70px;
+    position: fixed;
+    z-index: 10;
+    color:#fff;
+    text-align:center;
+}
+#menu ul{
+    display:inline-block;
+    height:45px;
+    min-width:200px;
+    margin:0;
+    padding:0;
+}
+#menu ul li{
+    height:25px;
+    display:inline-block;
+    //padding-right:5px;
+    margin-top:15px;
+    margin-right:15px;
+    margin-bottom:5px;
+    //background-image:url('/img/logo_nonebg.png');
+    //background-size:15%;
+    //background-position-x: right;
+    //background-repeat: no-repeat;
+}
+#menu ul li:hover {
+    height:25px;
+    margin-bottom: 0px;
+    border-bottom: 5px solid #ffe600;
+}
+#join_now{
+    position:fixed;
+    z-index:11;
+    //width:200px;
+    top:20px;
+    right:20px;
+    background: #ffe600;
+    color: #222;
+    padding: 8px;
+    font-weight: 600;
+    text-align: center;
+    border: 0px solid #fff;
+}
+#job{
+    position:fixed;
+    z-index:11;
+    //width:200px;
+    top:20px;
+    left:20px;
+    background: #ffe600;
+    color: #222;
+    padding: 8px;
+    font-weight: 600;
+    text-align: center;
+    border: 0px solid #fff;
+}
+
+#site {
+display: table-cell;
+margin-top: 120px;
+margin-right: auto;
+right: 0;
+left: 0;
+width: 900px;
+margin-left: auto;
+/* background-image: none; */
+position: absolute;
+}
+#site2 {
+display: block;
+margin: 0 auto;
+width: 900px;
+/* background-image: none; */
+position: absolute;
+}
+
+#site div.col2-1, #site div.col2-2, #site div.col2a-1, #site div.col2a-2{
+    float: left;
+}
+#site #news_promo{
+    background:#fff;
+    color:#000;
+    margin:5px;
+    //padding-left:300pxy
+    width:890px;
+    height:100px;
+}
+
+#site .kom_1{
+    color: #fff;
+    margin: 5px;
+    padding: 1px 0 1px 35px;
+    width:855px;
+}
+#site .green{
+    background-color:#91ad36;
+}
+#site .red{
+    background-color:#c95853;
+}
+#site #news_promo .img{
+    display:block;
+    width:300px;
+    height:100px;
+}
+#site #news_promo a.a_np{
+    display:block;
+    padding-left:300px;
+    width:590px;
+    height:100px;
+    color:#000;
+    background-size:300px auto;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: center;
+}
+#site #news_promo a h2{
+    padding:10px 0 0 10px;
+    font-size:16px;
+}
+#site #news_promo p{
+    padding-left:300px;
+}
+#site #news_promo .button {
+background: #ffe600;
+color: #222;
+width: 200px;
+padding: 8px;
+/* height: 20px; */
+font-weight: 600;
+text-align: center;
+/* border-radius: 5px; */
+border: 0px solid #fff;
+float: right;
+margin-right: 20px;
+}
+#site .button {
+background: #fff;
+color: #222;
+/* width: 200px; */
+padding: 8px;
+/* height: 20px; */
+font-weight: 600;
+text-align: center;
+/* border-radius: 5px; */
+/* border: 0px solid #fff; */
+/* float: right; */
+/* margin-right: 20px; */
+margin-bottom:10px;
+}
+#site .col2-1, #site .col2-2{
+    color:#000;
+    margin:5px;
+    padding:15px;
+    width:410px;
+    min-height:100px;
+    display:inline-block;
+}
+#site .col2-1 a, #site .col2-2 a{
+    color:#000;
+}
+#site .col2a-1{
+    color:#fff;
+    margin:5px;
+    padding:15px;
+    width:610px;
+    min-height:100px;
+    display:inline-block;
+}
+#site .bg{
+    background-image: url('img/od.png');
+    background-position-x: 380px;
+    background-position-y: 50px;
+    background-repeat: no-repeat;
+    background-color: #bd1414;
+     
+}
+#site .col2a-1 h1, #site .col2-1 h1, #site .col2-2 h1{
+    color:#fff;
+}
+#site .col2a-2{
+    text-align:center;
+    color:#000;
+    margin:5px 5px 5px 0;
+    width:245px;
+    min-height:100px;
+    display:inline-block;
+    padding-bottom:5px;
+}
+
+#site .col2a-2 h2, #site .col2-2 h2, #site .button{
+    margin-left:5px;
+    margin-right:5px;
+}
+#site .col2a-1 a, #site .col2a-2 a{
+    color:#000;
+}
+#site .col2a-1 h1{
+    margin:5px 0px 5px 5px;
+}
+
+#site .col2a-1 form .name, #site .col2a-2 form .name, 
+#site .col2-1 form .name, #site .col2-2 form .name{
+    width:150px;
+    height:30px;
+    text-align:right;
+    display:inline-block;
+    padding-right:10px;
+    color:#fff;
+}
+
+
+#site .col2a-1 form .input, #site .col2a-2 form .input, 
+#site .col2-1 form .input, #site .col2-2 form .input{
+    width:220px;
+    height:30px;
+    text-align:left;
+    display:inline-block;
+}
+form input{
+    min-width:40px;
+    min-height:20px;
+    max-height:40px;
+    border:0;
+    font-size:16px;
+    border:0;
+    background:#fff;
+    margin: 0 5px 0 5px;
+    padding:5px 5px 5px 5px;
+    text-align:left;
+}
+#site .col2a-1 form .input input[type=text].postcode{
+    width:60px;
+    height:20px;
+    border:0;
+    font-size:16px;
+}
+#site .col2a-1 form .input input[type=text].weight{
+    width:40px;
+    height:20px;
+    font-size:16px;
+}
+#site .col2a-1 form .input input[type=text].size{
+    width:40px;
+    height:20px;
+    font-size:16px;
+}
+
+#site .col2a-1 form .input input[type=date]{
+    //width:120px;
+    height:20px;
+    font-size:12px;
+}
+#site .col2a-1 form .input input[type=text]{
+    width:140px;
+    height:20px;
+    font-size:12px;
+}
+#site .col2a-1 form .input input.time{
+    width:40px;
+    height:20px;
+    font-size:12px;
+}
+
+#site .col2a-1 form .input input{
+    border:0;
+    background:#fff;
+    margin: 0 5px 0 5px;
+    padding:5px 5px 5px 5px;
+    text-align:left;
+}
+#site .col2a-1 form input[type=submit],#site .col2a-2 form input[type=submit],
+#site .col2-1 form input[type=submit],#site .col2-2 form input[type=submit]{
+    background: #ffe600;
+    color: #222;
+    padding: 10px;
+    font-weight: 600;
+    border:0;
+    margin: 0 5px 0 5px;
+    text-align:center;
+    float:right;
+}
+
+#site .col2a-1 form .input input[type=text].Ipostcode{
+    width:60px;
+    height:20px;
+    border:0;
+    font-size:16px;
+}
+#site .col2a-1 form .input input[type=text].Iname, #site .col2a-1 form .input input[type=email].Iemail{
+    width:160px;
+    height:20px;
+    border:0;
+    font-size:16px;
+}
+#site .col3{
+    //color: #fff;
+    margin: 0px;
+    padding: 0px 0 0px 0px;
+    width:900px;
+    display:inline-block;
+}
+#site .col3-min{
+    text-align: left;
+    color: #000;
+    margin: 5px 5px 5px 0;
+    width: 280px;
+    min-height: 100px;
+    display: inline-block;
+    padding: 0px 5px 0 10px;
+}

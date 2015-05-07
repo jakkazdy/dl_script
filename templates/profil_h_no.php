@@ -1,0 +1,1 @@
+<p>Wystąpił błąd, spróbuj ponownie zmienić hasło.</p>

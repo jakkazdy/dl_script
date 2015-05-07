@@ -1,0 +1,1 @@
+<p>Rejestracja się nie powiodła, sprawdź czy nie posiadasz już konta lub spróbuj ponownie.</p>

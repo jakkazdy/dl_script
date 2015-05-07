@@ -1,0 +1,11 @@
+<?php
+if($U->status==1){
+    if($p_post['status']==1){
+        include('templates/logout.php');
+    }else{
+        include('templates/404.php');
+    }
+}else{
+       include('templates/404.php');
+}
+?>

@@ -1,0 +1,6 @@
+RewriteEngine on
+
+RewriteRule ^(.+)/(.+)/(.+)/(.+).html$ index.php?url=$1&a=$2&b=$3&c$4 [NC,L]
+RewriteRule ^(.+)/(.+)/(.+).html$ index.php?url=$1&a=$2&b=$3 [NC,L]
+RewriteRule ^(.+)/(.+).html$ index.php?url=$1&a=$2 [NC,L]
+RewriteRule ^(.*).html$ index.php?url=$1 [NC]
