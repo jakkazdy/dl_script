@@ -8,7 +8,7 @@ if($S->site_error==1){
     ini_set('display_errors', 1);
 }
 $U = new User;
-
+//master 2
 include('include/_post.php');
 
 if($U->status==9){
