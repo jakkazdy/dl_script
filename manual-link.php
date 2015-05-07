@@ -23,6 +23,7 @@ echo'</br>';
 echo'$view:</br>';
 print_r($view);
 echo'</br>';
+echo'ciekawe';
 echo'$p_post:</br>';
 print_r($p_post);
 echo'</br>';echo'</br>';
