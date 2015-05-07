@@ -17,6 +17,7 @@ echo''
         . '<a href="index.php?url=pack_close">PACK close</a><br/>';
 
 echo'$_SESSION:</br>';
+echo'NowyKod';
 print_r($_SESSION);
 echo'</br>';
 echo'$view:</br>';
