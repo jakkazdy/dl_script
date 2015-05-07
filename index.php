@@ -1,5 +1,5 @@
 <?php
-//lol2
+//kom3
 session_start();
 include('include/config/setting.php');
 $S = new Config;
