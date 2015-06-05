@@ -1,0 +1,4 @@
+$ cat .gitignore
+connect_mysql.php
+include/config/*.php
+*~
