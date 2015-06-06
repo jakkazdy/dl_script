@@ -34,7 +34,7 @@ class PDO_Connect extends PDO {
 		$mysql_host = 'mysql03int.az.pl'; //lub jakiĹ adres: np sql.nazwa_bazy.nazwa.pl
 		$port = '3306'; //domyĹlnie jest to port 3306
 		$username = 'u1058462_dl';
-		$password = 'g}]r3El1BA1';
+		$password = 'g}]r3El1BA1'; //lol2
 		$database = 'db1058462_dl'; //'produkty'
         parent::__construct('mysql:host='.$mysql_host.';dbname='.$database.';port='.$port, $username, $password );
 
