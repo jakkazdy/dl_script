@@ -1,5 +1,4 @@
 <?php
-//lol2
 session_start();
 include('include/config/setting.php');
 $S = new Config;
