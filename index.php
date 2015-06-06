@@ -1,4 +1,5 @@
 <?php
+//test
 session_start();
 include('include/config/setting.php');
 $S = new Config;
