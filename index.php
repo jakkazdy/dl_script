@@ -1,4 +1,5 @@
 <?php
+echo 'test';
 //test
 session_start();
 include('include/config/setting.php');
